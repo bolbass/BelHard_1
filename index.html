@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        <input type="text" name="number" size="3">
+        <input type="button" value="Вычислить" onclick="func1()">
+    </form>
+    <script>
+        function func1(){
+            let n=form1.number.value;
+            alert(`Результат ${myPow(n)}`);
+        }
+
+        function myPow(x){ 
+            let z=x*x 
+            return z }
+    </script>
+    
+</body>
+</html>
